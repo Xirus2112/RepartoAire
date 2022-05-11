@@ -38,18 +38,18 @@
          
         <thead>
          
-          <tr>
-            
-            <th style="width:10px">#</th>
-            <th>Nombre</th>
-            <th>Usuario</th>
-            <th>Foto</th>
-            <th>Perfil</th>
-            <th>Estado</th>
-            <th>Último login</th>
-            <th>Acciones</th>
+         <tr>
+           
+           <th style="width:10px">#</th>
+           <th>Nombre</th>
+           <th>Usuario</th>
+           <th>Foto</th>
+           <th>Perfil</th>
+           <th>Estado</th>
+           <th>Último login</th>
+           <th>Acciones</th>
 
-          </tr> 
+         </tr> 
 
         </thead>
 
@@ -65,7 +65,7 @@
        foreach ($usuarios as $key => $value){
          
           echo ' <tr>
-                  <td>1</td>
+                  <td>'.($key+1).'</td>
                   <td>'.$value["nombre"].'</td>
                   <td>'.$value["usuario"].'</td>';
 

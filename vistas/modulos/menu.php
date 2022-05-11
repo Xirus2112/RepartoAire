@@ -28,16 +28,16 @@
 
 			<li>
 
-				<a href="reparto">
+				<a href="categorias">
 
 					<i class="fa fa-th"></i>
-					<span>Reparto</span>
+					<span>Categorías</span>
 
 				</a>
 
 			</li>
 
-			<!-- <li>
+			<li>
 
 				<a href="productos">
 
@@ -108,7 +108,7 @@
 
 						</a>
 
-					</li> -->
+					</li>
 
 				</ul>
 
