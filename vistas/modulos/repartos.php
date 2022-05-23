@@ -152,20 +152,20 @@
 </div>
 
 <!--=====================================
-MODAL AGREGAR CATEGORÍA
+MODAL AGREGAR REPARTO
 ======================================-->
 
 <div id="modalAgregarReparto" class="modal fade" role="dialog">
 
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-lg">
 
         <div class="modal-content">
 
             <form role="form" method="post">
 
                 <!--=====================================
-        CABEZA DEL MODAL
-        ======================================-->
+                CABEZA DEL MODAL
+                ======================================-->
 
                 <div class="modal-header" style="background:#3c8dbc; color:white">
 
@@ -176,35 +176,85 @@ MODAL AGREGAR CATEGORÍA
                 </div>
 
                 <!--=====================================
-        CUERPO DEL MODAL
-        ======================================-->
+                CUERPO DEL MODAL
+                ======================================-->
 
                 <div class="modal-body">
 
                     <div class="box-body">
 
-                        <!-- ENTRADA PARA EL NOMBRE -->
+                        <!-- PRIMERA FILA-->
 
-                        <div class="form-group">
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <div class="from-group">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
 
-                            <div class="input-group">
-
-                                <span class="input-group-addon"><i class="fa fa-th"></i></span>
-
-                                <input type="text" class="form-control input-lg" name="nuevaReparto"
-                                    placeholder="Ingresar categoría" required>
-
+                                        <input type="text" class="form-control" name="nuevaReparto" placeholder="Prueba" required>
+                                    </div>
+                                </div>
                             </div>
 
+                            <!-- <div class="col-xs-4">
+                                <div class="from-group">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+
+                                        <input type="text" class="form-control" name="nuevaReparto" placeholder="Prueba" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-4">
+                                <div class="from-group">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+
+                                        <input type="text" class="form-control" name="nuevaReparto" placeholder="Prueba" required>
+                                    </div>
+                                </div>
+                            </div> -->
                         </div>
+                        <br>
+                    <!-- SEGUNDA FILA  -->
+                        <!-- <div class="row">
+                            <div class="col-xs-4">
+                                <div class="from-group">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+
+                                        <input type="text" class="form-control" name="nuevaReparto" placeholder="Prueba" required>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-4">
+                                <div class="from-group">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+
+                                        <input type="text" class="form-control" name="nuevaReparto" placeholder="Prueba" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-4">
+                                <div class="from-group">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+
+                                        <input type="text" class="form-control" name="nuevaReparto" placeholder="Prueba" required>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
 
                     </div>
 
                 </div>
 
                 <!--=====================================
-        PIE DEL MODAL
-        ======================================-->
+                PIE DEL MODAL
+                ======================================-->
 
                 <div class="modal-footer">
 
@@ -216,10 +266,10 @@ MODAL AGREGAR CATEGORÍA
 
                 <?php
 
-          $crearCategoria = new ControladorCategorias();
-          $crearCategoria -> ctrCrearCategoria();
+                $crearCategoria = new ControladorCategorias();
+                $crearCategoria -> ctrCrearCategoria();
 
-        ?>
+            ?>
 
             </form>
 
@@ -230,7 +280,7 @@ MODAL AGREGAR CATEGORÍA
 </div>
 
 <!--=====================================
-MODAL EDITAR CATEGORÍA
+MODAL EDITAR REPARTO
 ======================================-->
 
 <div id="modalEditarReparto" class="modal fade" role="dialog">
