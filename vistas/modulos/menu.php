@@ -26,7 +26,7 @@
 
 			</li>
 
-			<li>
+			<!-- <li>
 
 				<a href="categorias">
 
@@ -35,7 +35,7 @@
 
 				</a>
 
-			</li>
+			</li> -->
 
 			<li>
 
