@@ -37,18 +37,18 @@
 
 			</li>
 
-			<!-- <li>
+			<li>
 
-				<a href="productos">
+				<a href="repartos">
 
-					<i class="fa fa-product-hunt"></i>
-					<span>Productos</span>
+					<i class="fa fa-address-book"></i>
+					<span>Repartos</span>
 
 				</a>
 
 			</li>
 
-			<li>
+			<!-- <li>
 
 				<a href="clientes">
 
