@@ -191,39 +191,45 @@ MODAL AGREGAR REPARTO
                                     <div class="input-group">
                                         <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
 
-                                        <input type="text" class="form-control" name="nuevaReparto" placeholder="Prueba" required>
+                                        <input type="date" class="form-control" name="nuevaReparto" placeholder="Emisión" required>
                                     </div>
                                 </div>
                             </div>
 
-                            <!-- <div class="col-xs-4">
+                            <div class="col-xs-4">
                                 <div class="from-group">
                                     <div class="input-group">
                                         <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
 
-                                        <input type="text" class="form-control" name="nuevaReparto" placeholder="Prueba" required>
+                                        <input type="date" class="form-control" name="nuevaReparto" placeholder="Impresión" required>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xs-4">
                                 <div class="from-group">
                                     <div class="input-group">
-                                        <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+                                        <span class="input-group-addon"><i class="fa fa-file-text-o"></i></span>
 
-                                        <input type="text" class="form-control" name="nuevaReparto" placeholder="Prueba" required>
+                                        <select name="" class="form-control" id="">
+                                            <option value="">Seleccionar</option>
+                                            <option value="En Reparto">En Reparto</option>
+                                            <option value="No Programado">No Programado</option>
+                                            <option value="Alistamiento">Alistamiento</option>
+                                            <option value="Programado">Programado</option>
+                                        </select>
                                     </div>
                                 </div>
-                            </div> -->
+                            </div>
                         </div>
                         <br>
                     <!-- SEGUNDA FILA  -->
-                        <!-- <div class="row">
+                        <div class="row">
                             <div class="col-xs-4">
                                 <div class="from-group">
                                     <div class="input-group">
-                                        <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+                                        <span class="input-group-addon"><i class="fa fa-map-marker"></i></span>
 
-                                        <input type="text" class="form-control" name="nuevaReparto" placeholder="Prueba" required>
+                                        <input type="text" class="form-control" name="nuevaReparto" placeholder="Unicom" required>
                                     </div>
                                 </div>
                             </div>
@@ -231,23 +237,53 @@ MODAL AGREGAR REPARTO
                             <div class="col-xs-4">
                                 <div class="from-group">
                                     <div class="input-group">
-                                        <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+                                        <span class="input-group-addon"><i class="fa fa-map-marker"></i></span>
 
-                                        <input type="text" class="form-control" name="nuevaReparto" placeholder="Prueba" required>
+                                        <input type="text" class="form-control" name="nuevaReparto" placeholder="Ruta" required>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xs-4">
                                 <div class="from-group">
                                     <div class="input-group">
-                                        <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+                                        <span class="input-group-addon"><i class="fa fa-map-marker"></i></span>
 
-                                        <input type="text" class="form-control" name="nuevaReparto" placeholder="Prueba" required>
+                                        <input type="text" class="form-control" name="nuevaReparto" placeholder="Itinerario" required>
                                     </div>
                                 </div>
                             </div>
-                        </div> -->
+                        </div>
+                    <!-- TERCERA FILA  -->
+                    <div class="row">
+                            <div class="col-xs-4">
+                                <div class="from-group">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="fa fa-map-marker"></i></span>
 
+                                        <input type="text" class="form-control" name="nuevaReparto" placeholder="Unicom" required>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-4">
+                                <div class="from-group">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="fa fa-map-marker"></i></span>
+
+                                        <input type="text" class="form-control" name="nuevaReparto" placeholder="Ruta" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-4">
+                                <div class="from-group">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="fa fa-map-marker"></i></span>
+
+                                        <input type="text" class="form-control" name="nuevaReparto" placeholder="Itinerario" required>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
@@ -258,9 +294,9 @@ MODAL AGREGAR REPARTO
 
                 <div class="modal-footer">
 
-                    <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Salir</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Salir</button>
 
-                    <button type="submit" class="btn btn-primary">Guardar categoría</button>
+                    <button type="submit" class="btn btn-primary">Guardar Reparto</button>
 
                 </div>
 
@@ -283,7 +319,7 @@ MODAL AGREGAR REPARTO
 MODAL EDITAR REPARTO
 ======================================-->
 
-<div id="modalEditarReparto" class="modal fade" role="dialog">
+<div id="modalEditarRepartos" class="modal fade" role="dialog">
 
     <div class="modal-dialog">
 
@@ -365,3 +401,4 @@ MODAL EDITAR REPARTO
   $borrarCategoria -> ctrBorrarCategoria();
 
 ?>
+
